@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g10 g11 g12" "g13 g14 g15 g16";
+    border: double;
+    align-content: center;
   }
   
   .g1 { grid-area: g1; }
@@ -41,4 +43,9 @@
     color: red;
     font-weight: bold;
     font-style: italic; 
+  }
+
+  .theme{
+    height: 150px;
+    width: 500px;
   }
