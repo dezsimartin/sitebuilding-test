@@ -59,10 +59,12 @@
 @media only screen and (min-width: 800px) {
   .grid-container {
       display: grid;
+      width: 800px;
+      height: 800px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 100px 100px 100px 100px 100px;
-      grid-template-rows: 100px 100px 100px 100px 100px;
+      grid-template-columns: 200px 200px 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px 200px 200px;
       grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" "g9 g10 g11 g12" "g13 g14 g15 g16";
       border: double;
       align-content: center;
@@ -106,8 +108,8 @@
     }
 
     .image{
-      height: 300px;
-      width: 300px;
+      height: 400px;
+      width: 400px;
     }
   }
 
